@@ -16,6 +16,13 @@ npm install -g mocha-watch
 mocha-watch # drop-in replacement for mocha
 ```
 
+### Exclude a required file from watching
+
+```coffee
+after(() =>
+  delete require.cache["full/path/to/file"]
+)
+
 ## License
 Copyright (c) 2017 Paul Pflugradt
 Licensed under the MIT license.
