@@ -24,7 +24,7 @@
   "dependencies": {
     "chokidar": "^1.6.1",
     "mocha": "^3.2.0",
-    "recursive-uncache": "0.0.1"
+    "recursive-uncache": "^0.1.0"
   },
   "devDependencies": {},
   "keywords": [
